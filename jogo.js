@@ -96,7 +96,7 @@ function criaappleObj() {
     atualiza() {
       if(fazColisao(appleObj, chao)) {
         console.log('Fez colisao');
-        alert("Eureka! Sem forças exteriores a maçã cai até o chão pela força da graviade")
+        alert("Sem forças exteriores a maçã cai até o chão pela força da gravidade, que atrai os corpos para o centro da terra")
 
         setTimeout(() => {
           mudaParaTela(Telas.INICIO);
